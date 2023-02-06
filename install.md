@@ -1,7 +1,7 @@
 1.software
 
 ```
-yay -S hyprland-bin waybar-hyprland rofi dunst kitty  hyprpaper-git polkit-kde-agent xdg-desktop-portal-wlr  grim slurp ttf-material-design-icons
+yay -S hyprland-bin waybar-hyprland-git  rofi dunst kitty  hyprpaper-git polkit-kde-agent xdg-desktop-portal-wlr  grim slurp ttf-material-design-icons
 
 ```
 

@@ -6,8 +6,8 @@
     "margin-right": 10,
     "spacing": 14, // Gaps between modules (4px)
     "modules-left": ["clock","wlr/workspaces"],
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "pulseaudio","network", "battery"],
+    "modules-center": ["custom/spotify"],
+    "modules-right": ["tray", "pulseaudio","pulseaudio#microphone", "network", "battery"],
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -118,7 +118,16 @@
         "on-scroll-up": "pamixer --default-source -i 5",
         "on-scroll-down": "pamixer --default-source -d 5",
         "scroll-step": 5
-    }
+    },
+    "custom/spotify": {
+    "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
+    "format": "{}  ",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-double-click-right": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    },
+
 
 }
 
