@@ -6,7 +6,7 @@ yay -S hyprland-bin waybar-hyprland rofi dunst kitty  hyprpaper-git polkit-kde-a
 ```
 
 ```
-yay -S  qt5-wayland qt6-wayland pavucontrol wl-clipboard grimblast light swaylock-fancy-git swayidle tlp wlroots pamixer rofi-bluetooth-git
+yay -S  qt5-wayland qt6-wayland pavucontrol wl-clipboard grimblast light swaylock-fancy-git swayidle tlp wlroots pamixer rofi-bluetooth-git pulseaudio-bluetooth blueman 
 
 ```
 
