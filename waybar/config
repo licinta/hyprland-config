@@ -4,10 +4,10 @@
     "margin-left": 10,
     "margin-bottom": 0,
     "margin-right": 10,
-    "spacing": 10, // Gaps between modules (4px)
-    "modules-left": ["cpu", "memory", "wlr/workspaces"],
+    "spacing": 14, // Gaps between modules (4px)
+    "modules-left": ["clock","wlr/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "pulseaudio","pulseaudio#microphone", "network", "battery", "clock"],
+    "modules-right": ["tray", "pulseaudio","network", "battery"],
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
