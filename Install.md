@@ -132,3 +132,18 @@ obs-studio
 obs is ok ,if you use my hyprland.conf,if you have read hyprland wiki
 ```
 
+### 3.dolphin inner terminal
+
+```
+vim .config/kdeglobals
+```
+
+add
+
+```
+[General]
+TerminalApplication=kitty
+```
+
+
+
