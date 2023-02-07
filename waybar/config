@@ -1,9 +1,9 @@
 {
-    "height": 26, // Waybar height (to be removed for auto height)
+    "height": 22, // Waybar height (to be removed for auto height)
     "margin-top": 0,
-    "margin-left": 10,
+    "margin-left": 13,
     "margin-bottom": 0,
-    "margin-right": 10,
+    "margin-right": 13,
     "spacing": 14, // Gaps between modules (4px)
     "modules-left": ["clock","wlr/workspaces"],
     "modules-center": ["custom/spotify"],
@@ -35,7 +35,7 @@
         "spacing": 10
     },
     "clock": {
-        "format": "<span color='#bf616a'>  </span>{:%I:%M %p}",
+        "format": "<span color='#bf616a'>  </span>{:%A,%b %d,%I:%M %p}",
         "format-alt": "<span color='#bf616a'> </span>{:%I:%M %p}",
         "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
     },
