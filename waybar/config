@@ -7,7 +7,7 @@
     "spacing": 14, // Gaps between modules (4px)
     "modules-left": ["clock","wlr/workspaces"],
     "modules-center": ["custom/spotify"],
-    "modules-right": ["tray", "pulseaudio","pulseaudio#microphone", "network", "battery"],
+    "modules-right": ["tray","pulseaudio","network","backlight","battery"],
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -35,7 +35,7 @@
         "spacing": 10
     },
     "clock": {
-        "format": "<span color='#bf616a'>  </span>{:%a %b %d / %I:%M %p}",
+        "format": "<span color='#bf616a'>  </span>{:%I:%M %p}",
         "format-alt": "<span color='#bf616a'> </span>{:%I:%M %p}",
         "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
     },
@@ -126,6 +126,12 @@
     "on-click": "playerctl play-pause",
     "on-double-click-right": "playerctl next",
     "on-scroll-down": "playerctl previous",
+    },
+    "custom/weather": {
+      "exec": "python3 ~/.config/waybar/scripts/weather.py",
+      "restart-interval": 300,
+      "return-type": "json",
+      "on-click": "xdg-open  https://weather.com/zh-CN/weather/today/l/87a457421784c3ea839cd5d93b81fbe2cd44c81b7568352684e0afe8affbe0eb"
     },
 
 
