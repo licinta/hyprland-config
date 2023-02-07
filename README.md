@@ -1,7 +1,8 @@
 # hyprland-config
 
-see Install.md
+------
 
+![](Screenshot/4.png)
 
+------
 
-![](Screenshot/2.png)
