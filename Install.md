@@ -62,7 +62,7 @@ yay -S   pavucontrol pamixer
 yay -S light
 ```
 
-9.custom
+9.for custom
 
 ```
 yay -S  nwg-look qt5ct
