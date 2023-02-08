@@ -1,3 +1,9 @@
+```
+配置文件放到.config里，.wallpaper文件夹放到home目录
+```
+
+
+
 ### 1.software
 
 ##### all in one 
@@ -7,7 +13,7 @@ yay -S hyprland-bin waybar-hyprland-git  rofi dunst kitty rofi-bluetooth-git pul
 qt5-wayland qt6-wayland hyprpaper-git polkit-kde-agent polkit-kde-agent nerd-fonts-complete  xdg-desktop-portal-wlr    grim slurp  grimblast wl-clipboard  wlroots  pavucontrol pamixer light nwg-look qt5ct swaylock-fancy-git swayidle tlp
 ```
 
-1.basic
+1.core
 
 ```
 yay -S hyprland-bin waybar-hyprland-git  rofi dunst kitty rofi-bluetooth-git pulseaudio-bluetooth blueman
@@ -35,7 +41,7 @@ yay -S nerd-fonts-complete
 5.for obs (screensharing)
 
 ```
-yay -S  xdg-desktop-portal-wlr    grim slurp 
+yay -S  xdg-desktop-portal-wlr   grim slurp 
 ```
 
 6.screenshot
@@ -158,3 +164,6 @@ TerminalApplication=kitty
 
 如果waybar字体缺失 安装nerd-fonts-complete,当然 如果安装了文章开始的所有包，这条可以忽略
 
+### 5.wallpaper
+
+查看hyprpaper.conf 设置
