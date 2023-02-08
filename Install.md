@@ -26,13 +26,13 @@ yay -S hyprpaper-git
 yay -S polkit-kde-agent
 ```
 
-4.fonts
+4.fonts for waybar
 
 ```
 yay -S nerd-fonts-complete
 ```
 
-5.for obs like
+5.for obs (screensharing)
 
 ```
 yay -S  xdg-desktop-portal-wlr    grim slurp 
@@ -72,11 +72,19 @@ yay -S  swaylock-fancy-git swayidle
 
 ```
 yay -S tlp
+
+在终端输入tlp start,然后启动相关服务
 ```
 
+本人用的笔记本  发现kde和xfce的电源管理器都用不了 ，就安装了tlp。
+
+另外可以安装`tlpui`,图形化配置tlp
 
 
 
+
+
+其他有什么缺失的，请自行查看配置文件
 
 ### 2.FAQ
 
@@ -113,12 +121,13 @@ scroll-down
 3.wifi
 
 ```
-click to connect wifi
+1.nm-applet in the tray
+2.click to connect wifi icon on the waybar
 ```
 
-#### 3.screensharing
+#### 3.screensharing（屏幕共享）
 
-screenshot
+screenshot（截图）
 
 ```
 shift+alt+s	select a rectangle
@@ -145,5 +154,7 @@ add
 TerminalApplication=kitty
 ```
 
+### 4.fonts
 
+如果waybar字体缺失 安装nerd-fonts-complete,当然 如果安装了文章开始的所有包，这条可以忽略
 
