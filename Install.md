@@ -9,15 +9,16 @@
 ##### all in one 
 
 ```
-yay -S hyprland-bin waybar-hyprland-git  rofi dunst kitty rofi-bluetooth-git pulseaudio-bluetooth blueman
-qt5-wayland qt6-wayland hyprpaper-git polkit-kde-agent polkit-kde-agent nerd-fonts-complete  xdg-desktop-portal-wlr    grim slurp  grimblast wl-clipboard  wlroots  pavucontrol pamixer light nwg-look qt5ct swaylock-fancy-git swayidle tlp
+yay -S hyprland waybar-hyprland-git  rofi-lbonn-wayland-git  dunst kitty rofi-bluetooth-git pulseaudio-bluetooth blueman qt5-wayland qt6-wayland 
+yay -S hyprpaper-git  polkit-kde-agent nerd-fonts-complete  xdg-desktop-portal-wlr grim
+
+yay -S slurp  grimblast-git wl-clipboard  wlroots  pavucontrol pamixer light nwg-look qt5ct swaylock-effects swayidle tlp
 ```
 
 1.core
 
 ```
-yay -S hyprland-bin waybar-hyprland-git  rofi dunst kitty rofi-bluetooth-git pulseaudio-bluetooth blueman
-qt5-wayland qt6-wayland
+yay -S hyprland waybar-hyprland-git  rofi dunst kitty rofi-bluetooth-git pulseaudio-bluetooth blueman qt5-wayland qt6-wayland
 ```
 
 2.wallpaper
@@ -47,7 +48,7 @@ yay -S  xdg-desktop-portal-wlr   grim slurp
 6.screenshot
 
 ```
-yay -S grimblast wl-clipboard  wlroots
+yay -S grimblast-git  wl-clipboard  wlroots
 ```
 
 7.waybar sound support
@@ -71,7 +72,7 @@ yay -S  nwg-look qt5ct
 10.screen lock
 
 ```
-yay -S  swaylock-fancy-git swayidle
+yay -S  swaylock-effects swayidle
 ```
 
 11.power manager
