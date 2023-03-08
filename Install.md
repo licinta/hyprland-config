@@ -12,7 +12,7 @@
 yay -S hyprland waybar-hyprland-git  rofi-lbonn-wayland-git  dunst kitty rofi-bluetooth-git pulseaudio-bluetooth blueman qt5-wayland qt6-wayland 
 yay -S hyprpaper-git  polkit-kde-agent nerd-fonts-complete  xdg-desktop-portal-wlr grim
 
-yay -S slurp  grimblast-git wl-clipboard  wlroots  pavucontrol pamixer light nwg-look qt5ct swaylock-effects swayidle tlp
+yay -S slurp  grimblast-git wl-clipboard  wlroots  pavucontrol pamixer light nwg-look qt5ct swaylock-effects-git swayidle tlp
 ```
 
 1.core
