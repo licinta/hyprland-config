@@ -6,9 +6,9 @@
     "margin-right": 13,
     "layer": "top",
     "spacing": 14, // Gaps between modules (4px)
-    "modules-left": ["clock","wlr/workspaces"],
+    "modules-left": ["clock","memory","cpu","wlr/workspaces"],
     "modules-center": ["custom/spotify"],
-    "modules-right": ["tray","pulseaudio","network","backlight","battery"],
+    "modules-right": ["tray","pulseaudio","network","battery"],
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -36,7 +36,7 @@
         "spacing": 10
     },
     "clock": {
-        "format": "<span color='#bf616a'>  </span>{:%A,%b %d,%I:%M %p}",
+        "format": "<span color='#bf616a'>  </span>{:%A,%B %d,%I:%m %p}",
         "format-alt": "<span color='#bf616a'> </span>{:%I:%M %p}",
         "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
     },
@@ -49,7 +49,7 @@
     },
     "memory": {
         "interval": 30,
-        "format": " {}%",
+        "format": " {used:0.1f}G",
         "format-alt":" {used:0.1f}G",
         "max-length": 10,
     },
