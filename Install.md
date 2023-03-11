@@ -1,5 +1,8 @@
 ```
 配置文件放到.config里，.wallpaper文件夹放到home目录
+
+壁纸 在hypr/hyprpaper.conf设置
+锁屏在hyprland.conf 搜索lock 设置
 ```
 
 
